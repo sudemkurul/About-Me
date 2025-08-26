@@ -1,0 +1,7 @@
+title: "Sudem Kurul"
+description: "History • Politics • Law • Cultural Anthropology"
+theme: minima
+header_pages:
+  - about.md
+  - projects.md
+  - writings.md
