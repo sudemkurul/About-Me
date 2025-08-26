@@ -1,7 +1,81 @@
-body{font-family:Arial, sans-serif;margin:0;background:#f7f7f7;color:#1d1f23;line-height:1.6}
+/* ---- Oxford/Cambridge minimal akademik tema ---- */
+:root{
+  --bg:#f7f7f7;
+  --panel:#ffffff;
+  --text:#1f1f1f;
+  --muted:#6b7280;
+  --border:#e5e7eb;
+  --accent:#0b3d91;   /* Oxford mavisi */
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  font-family:'Merriweather', serif;
+  font-size:15px;
+  line-height:1.7;
+  color:var(--text);
+  background:var(--bg);
+}
+
+/* layout */
 .container{max-width:900px;margin:0 auto;padding:0 20px}
-.site-header{background:#fff;border-bottom:1px solid #e5e7eb;padding:12px 0}
-.nav a{margin-left:16px;text-decoration:none;color:#374151}
+
+/* header & nav */
+.site-header{
+  background:var(--panel);
+  border-bottom:1px solid var(--border);
+  padding:12px 0;
+}
+.brand{
+  font-weight:700;
+  text-decoration:none;
+  color:var(--accent);
+}
+.nav a{
+  margin-left:16px;
+  text-decoration:none;
+  color:#374151;
+}
 .nav a:hover{text-decoration:underline}
-.lead{color:#444}
-.site-footer{border-top:1px solid #e5e7eb;margin-top:40px;padding:20px 0;color:#6b7280;text-align:center}
+.nav a.active{color:var(--accent);font-weight:700}
+
+/* hero */
+.hero{padding:36px 0}
+.hero h1{
+  font-size:26px;
+  margin:0 0 8px 0;
+  color:#111827;
+}
+.lead{color:#333;margin:0}
+
+/* content card */
+.content{
+  background:var(--panel);
+  border:1px solid var(--border);
+  border-radius:12px;
+  padding:20px 24px;
+  margin:24px 0;
+  box-shadow:0 3px 10px rgba(0,0,0,.06);
+}
+
+/* headings & text */
+h1{font-size:22px;margin:18px 0 10px 0;color:#111827}
+h2{font-size:16px;margin:20px 0 10px 0;color:#1f2937;font-weight:700}
+p{text-align:justify;margin:12px 0}
+.content p{font-size:14.5px;color:#333}
+.content ul{margin:6px 0 0 20px;padding:0}
+.content li{margin:5px 0;font-size:14.5px;line-height:1.55}
+
+/* footer */
+.site-footer{
+  border-top:1px solid var(--border);
+  margin-top:40px;
+  padding:20px 0;
+  color:var(--muted);
+  text-align:center;
+}
+
+/* links */
+a{color:var(--accent)}
+a:hover{text-decoration:underline}
