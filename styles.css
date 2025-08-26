@@ -1,0 +1,7 @@
+body{font-family:Arial, sans-serif;margin:0;background:#f7f7f7;color:#1d1f23;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:0 20px}
+.site-header{background:#fff;border-bottom:1px solid #e5e7eb;padding:12px 0}
+.nav a{margin-left:16px;text-decoration:none;color:#374151}
+.nav a:hover{text-decoration:underline}
+.lead{color:#444}
+.site-footer{border-top:1px solid #e5e7eb;margin-top:40px;padding:20px 0;color:#6b7280;text-align:center}
